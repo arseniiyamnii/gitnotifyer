@@ -1,8 +1,20 @@
 # Gitnotifyer
 ## Notification for git
 todo:
-we need sercher all git repos
-then we need store that in some file
-then we need create rules for that directorys(when and about what notify)
-rules may be writen just like echo commands, and then if first echo more than something -> notify
-we need some ntifycation system. Thats all
+we read config
+or every dirrectory in config,
+run command for that dirrectory
+default command its check line numbers
+also we need triggers
+triggers work with cron or (inotify(or something like that))
+so script can create triggers for that daemon
+so.
+--------------------
+we create rc file
+rc got paths - hook - trigger
+we set triggers - (auto)
+trigger call script with path arg
+done.
+then we an change trigger or hook , and source new rc
+done
+----
