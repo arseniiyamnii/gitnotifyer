@@ -10,7 +10,8 @@ triggers work with cron or (inotify(or something like that))
 so script can create triggers for that daemon
 so.
 --------------------
-we create rc file
+run instaler(instal dependencies and make ln)
+installer create rc file
 rc got paths - hook - trigger
 we set triggers - (auto)
 trigger call script with path arg
