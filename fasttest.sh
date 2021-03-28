@@ -1,2 +1,3 @@
 #!/bin/bash
-./gitnotifyer.sh && cat ~/.gitnotify-repos
+python3 ./notifyer.py
+
