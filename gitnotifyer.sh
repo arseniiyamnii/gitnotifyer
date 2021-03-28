@@ -12,13 +12,13 @@ function gitsearch {
 		notpath="-not -path '${i}*'${notpath}"
 	done
 	#echo "$notpath"
-	rm ~/.gitnotify-repos
+	#rm ~/.gitnotify-repos
 	find ~ \
 	-type d \
 	'(' -name '*.git' ')' -and \
 	-not '(' -path ''\
 	-or -path $HOME'/.dotfiles/*'\
 	-or -path $HOME'/.yabtm/*'\
-	')' >> ~/.gitnotify-repos
+	')'
 }
 gitsearch
